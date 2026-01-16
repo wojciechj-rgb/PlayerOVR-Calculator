@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0e0e0e;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 520px;
+  margin: 30px auto;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.stat {
+  display: grid;
+  grid-template-columns: 1fr 2fr 60px;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+input[type="number"] {
+  background: #000;
+  color: #00ff88;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+.ovr {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00ff88;
+}
+
+.gk-ovr {
+  color: #00aaff;
+}
+
+hr {
+  margin: 25px 0;
+  border: 1px solid #333;
+}
